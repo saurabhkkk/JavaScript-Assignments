@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second assignment</title>
+    <script>
+        function myFunction()
+        {
+         console.log("before statement")
+         let x = document.getElementsByClassName('first')
+         for(let i=0;i<x.length;i++)
+         {
+             x[i].innerHTML = "Saurabh Mishra"
+         }
+         //document.getElementById('1').innerHTML = "I am visible"
+         console.log("hii")
+         
+        }
+     </script>
+   
+</head>
+<body onload="myFunction()">
+
+    <h1 class="first"></h1>
+    <h2 class="first"></h2>
+    <h3 class="first"></h3>
+    <h4 class="first"></h4>
+    <h5 class="first"></h5>
+    <p id="1"></p>
+</body>
+
+</html>
