@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      function myFunction()
+      {
+          let x = document.getElementById("1").value;
+          console.log(x);
+          let y = '@';
+          for(let i=0;i<x.length;i++)
+          {
+              if(y.includes(x[i]))
+              {
+                  console.log("in if");
+                return;
+              }
+              else
+              {
+                  alert("write valid emailid");
+              }
+              
+          }
+          
+      }
+    </script>
+</head>
+<body>
+    <label for="email">Enter email</label>
+    <input type="text" name="" id="1">
+    <button onclick="myFunction()">submit</button>
+</body>
+</html>
