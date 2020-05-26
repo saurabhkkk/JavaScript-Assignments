@@ -21,3 +21,4 @@ tony.display();
 var tina = new Account('Tina',2000);
 tina.deposit(1000);
 tina.display();
+console.log(Object.keys(Account));
