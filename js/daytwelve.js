@@ -3,7 +3,7 @@ const span = document.querySelector('span');
 
 input.addEventListener('change',function(e)
 {
-    if(e.target.value === '')
+    if(!e.target.value)
     {
         alert("Please enter something");
     }
